@@ -24,7 +24,7 @@ body::before{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Warna hitam dengan transparansi 50% */
+    background-color: rgba(0, 0, 0, 0.5); 
     z-index: 1;
 }
 
@@ -52,8 +52,7 @@ img.clicked {
       transform: scale(1);
     }
     50% {
-      transform: scale(1.2); /* Memperbesar gambar */
-    }
+      transform: scale(1.2);
     100% {
       transform: scale(1);
     }
