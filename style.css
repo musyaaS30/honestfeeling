@@ -38,6 +38,7 @@ body::before{
 
 .container img{
     width: 180px;
+    cursor: pointer;
 }
 .container img:hover{
     width: 170px;
