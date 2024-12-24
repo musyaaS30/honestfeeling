@@ -5,11 +5,11 @@ function playSound() {
 const image = document.getElementById('image');
 
     image.addEventListener('click', () => {
-      // Tambahkan class 'clicked' untuk memicu animasi
+      // buat kliknya
       image.classList.add('clicked');
 
-      // Hapus class setelah animasi selesai agar bisa diulang
+      // loop/pengulangan
       setTimeout(() => {
         image.classList.remove('clicked');
-      }, 500); // Durasi animasi 0.5 detik
+      }, 500); // 0.5
     });
