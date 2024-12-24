@@ -38,14 +38,9 @@ body::before{
 
 .container img{
     width: 180px;
+    height: auto;
     cursor: pointer;
-}
-.container img:hover{
-    width: 170px;
-}
-
-.container img:hover{
-    width: 170px;
+    transition: transform 0.3s ease;
 }
 
 img.clicked {
@@ -62,3 +57,4 @@ img.clicked {
     100% {
       transform: scale(1);
     }
+  }
