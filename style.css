@@ -42,3 +42,22 @@ body::before{
 .container img:hover{
     width: 170px;
 }
+
+.container img:hover{
+    width: 170px;
+}
+
+img.clicked {
+    animation: scaleUp 0.5s ease-out forwards;
+  }
+
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); /* Memperbesar gambar */
+    }
+    100% {
+      transform: scale(1);
+    }
