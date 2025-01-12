@@ -8,7 +8,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("backgroud.jpg") 100vh;
     background-size: cover;
     background-position: center;
     height: 100vh;
